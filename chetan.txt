@@ -1,2 +1,3 @@
 Hello, This is chetan here.
-Trying to learn git
+Trying to learn git, it is amazing
+but also lil challenging
