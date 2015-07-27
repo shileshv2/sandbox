@@ -1,1 +1,1 @@
-First line from script
+First line from script for conflict creation
