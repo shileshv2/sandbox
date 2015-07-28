@@ -1,1 +1,1 @@
-text file created and merged by another branch
+text file edited in subbranch
