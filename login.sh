@@ -1,1 +1,1 @@
-First line from scripts by Rakesh 
+First line from scripts 
