@@ -1,10 +1,17 @@
 
 #!/bin/bash
+
 for i in `seq 2
 
-tyutytr]'
 
-rty57rt 170`
+
+
+3'
+
+ 170`
 do
- echo Counting from 1 to 170, now at $i
+
+
+for i in `seq 1 17`
+
 done
