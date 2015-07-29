@@ -1,10 +1,36 @@
-
 #!/bin/bash
-for i in `seq 2
-
-tyutytr]'
-
-rty57rt 170`
+for counter in {1..20}
 do
- echo Counting from 1 to 170, now at $i
+   echo counting from 1 to 20, now at $counter
+   sleep 1
 done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
