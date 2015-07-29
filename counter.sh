@@ -1,17 +1,36 @@
-
 #!/bin/bash
-
-for i in `seq 2
-
-
-
-
-3'
-
- 170`
+for counter in {1..20}
 do
-
-
-for i in `seq 1 17`
-
+   echo counting from 1 to 20, now at $counter
+   sleep 1
 done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
