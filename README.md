@@ -42,11 +42,16 @@ Linux provides a standard file structure in which system files/ user files are a
  Linux provides user security using authentication features like password protection/ controlled access to specific files/ encryption of data.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-About Linux 
-By manish
+
+==About Linux By manish==
 
 1. Linux is a name which broadly denotes a family of free and open-source software operating systems (OS) built around the Linux kernel.
 2. Linux is packaged in a form known as a Linux distribution for both desktop and server use.
 3. The defining component of a Linux distribution is the Linux kernel, an operating system kernel first released on September 17, 1991.
 4. It is developed by Linus Torvalds. 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Linux was originally developed for personal computers based on the Intel x86 architecture.
+6. The dominance of the Linux kernel-based Android OS on smartphones, Linux has the largest installed base of all general-purpose operating systems.
+7. It is used by around 2.3% of desktop computers.
+8. Linux also runs on embedded systems.
+9. The development of Linux is one of the most prominent examples of free and open-source software collaboration. 
+10. The underlying source code may be used, modified and distributed—commercially or non-commercially—by anyone under the terms of its respective licenses, such as the GNU General Public License.
