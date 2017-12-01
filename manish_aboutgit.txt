@@ -1,0 +1,14 @@
+About Git
+
+1. Git is a version control system. 
+2. It is for tracking changes in computer files.
+3. It coordinating work on those files among multiple people.
+4. It is primarily used for source code management in software development.
+5. It can be used to keep track of changes in any set of files.
+6. A distributed revision control system it is aimed at speed, data integrity, and support for distributed, non-linear workflows.
+7. Git was created by Linus Torvalds in 2005.
+8. It is for development of the Linux kernel.
+9. kernel developers contributing to its initial development.
+10. Its current maintainer since 2005 is Junio Hamano.
+
+
