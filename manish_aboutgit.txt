@@ -1,4 +1,4 @@
-About Git
+All About Git
 
 1. Git is a version control system. 
 2. It is for tracking changes in computer files.
