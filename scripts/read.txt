@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 script
+=======
+This is my file. 
+writing
+>>>>>>> cdede6617e22ce0bae79165399825a4bb1a1412d
