@@ -3,5 +3,5 @@ echo "enter any numbers"
 read a
 read b
 echo $(($a+$b))
-ps
+
 
