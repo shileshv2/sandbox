@@ -10,4 +10,8 @@ A Brief History of sh
 Steve Bourne wrote the Bourne shell which appeared in the Seventh Edition Bell Labs Research version of Unix.
 Many other shells have been written; this particular tutorial concentrates on the Bourne and the Bourne Again shells.
 Other shells include the Korn Shell (ksh), the C Shell (csh), and variations such as tcsh.
-This tutorial does not cover those shells. 
+This tutorial does not cover those shells.
+
+A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.[1] The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a wrapper.
+he term is also used more generally to mean the automated mode of running an operating system shell; in specific operating systems they are called other things such as batch files (MSDos-Win95 stream, OS/2), command procedures (VMS), and shell scripts (Windows NT stream and third-party derivatives like 4NT—article is at cmd.exe), and mainframe operating systems are associated with a number of terms.
+Shell is an environment in which we can run our commands, programs, and shell scripts. 
