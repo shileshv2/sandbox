@@ -7,10 +7,10 @@ echo "memory = $memory //script1"
 
 if [ `echo "${memory} > 20.0" | bc ` -eq 1 ]; then
        # sh ./test1.sh
-       echo "memory used is more than 20%"
+       echo "Enter your email"
+       read email
+       echo "email sent to $email"
 
 else
         echo "memory used is less than 20%"
-fi
-~                                                                                                                                 
-~                    
+fi       
