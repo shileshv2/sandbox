@@ -1,2 +1,5 @@
 a new file is created in the web folder 
 for checking the git index updates
+a new.txt file is modified from the remote repository
+we are adding a new conttent into this file
+changes will be observed from the local repository after doing the fetch from the remote
