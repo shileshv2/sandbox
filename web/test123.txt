@@ -1,0 +1,3 @@
+doing changes from remote repository
+to receive changes from remote
+and to see the difference between these commands
