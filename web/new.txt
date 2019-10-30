@@ -1,0 +1,2 @@
+a new file is created in the web folder 
+for checking the git index updates
