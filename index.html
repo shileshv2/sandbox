@@ -1,58 +1,108 @@
-<html>
-
- <head>
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <title>leaf collection of the profilio</title>
 	 <style>
+		 *{
+			 box-sizing: border-box;
+		 }
+		 body{
+			 margin:0;
+			 font-family:Arial;
+		 }
 		 .column {
 			float: left;
 			width: 30%;
 			padding: 5px;
 			}
+			.column img {
+				opacity: 0.8;
+				cursor:pointer;
+			}
+			.column img:hover{
+				opacity: 1;
+			}
 
-			/* Clear floats after image containers */
 		 .row::after {
 			content: "";
 			clear: both;
 			display: table;
 			}
+			.container{
+				position: relative;
+				display:none;
+			}
+			#imgtext{
+				position:absolute;
+				bottom:15px;
+				color:white;
+				font-size: 20px;
+			}
+			.closebtn{
+				position:absolute;
+				top:10px;
+				right:15px;
+				color:white;
+				font-size: 35px;
+				cursor: pointer;
+			}
 	 </style>
+	 </head>
 		<h1 style="text-align: center;">images to be displayed</h1>
 		<div	 >
 				<div class="row">
 						<div class="column">
-						  <img src="download1.jpeg" alt="Snow" style="width:100%">
+						  <img src="download1.jpeg" alt="Snow" style="width:100%" onclick="myFunction(this);">
 						</div>
 						<div class="column">
-						  <img src="download1.jpeg" alt="Forest" style="width:100%">
+						  <img src="download1.jpeg" alt="Forest" style="width:100%" onclick="myFunction(this);">
 						</div>
 						<div class="column">
-						  <img src="download1.jpeg" alt="Mountains" style="width:100%">
+						  <img src="download1.jpeg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
 						</div>
 				</div>
 				<div class="row">
 						<div class="column">
-						  <img src="download1.jpeg" alt="Snow" style="width:100%">
+						  <img src="download1.jpeg" alt="Snow" style="width:100%" onclick="myFunction(this);">
 						</div>
 						<div class="column">
-						  <img src="download1.jpeg" alt="Forest" style="width:100%">
+						  <img src="download1.jpeg" alt="Forest" style="width:100%" onclick="myFunction(this);">
 						</div>
 						<div class="column">
-						  <img src="download1.jpeg" alt="Mountains" style="width:100%">
+						  <img src="download1.jpeg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
 						</div>
 				</div>	
 				<div class="row">
 						<div class="column">
-						  <img src="download1.jpeg" alt="Snow" style="width:100%">
+						  <img src="download1.jpeg" alt="Snow" style="width:100%" onclick="myFunction(this);">
 						</div>
 						<div class="column">
-						  <img src="download1.jpeg" alt="Forest" style="width:100%">
+						  <img src="download1.jpeg" alt="Forest" style="width:100%" onclick="myFunction(this);">
 						</div>
 						<div class="column">
-						  <img src="download1.jpeg" alt="Mountains" style="width:100%">
+						  <img src="download1.jpeg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
 						</div>
 				</div>	
 		</div>
+
+		<div class="container">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<img id="expandedImg" style="width:100%">
+			<div id="imgtext"></div>
+	</div>
+
+	<script>
+	function myFunction(imgs){
+		var expandImg = document.getElementById("expandedImg");
+		var imgText = document.getElementById("imgtext");
+		expandImg.src = imgs.src;
+		imgText.innerHTML=imgs.alt;
+		expandImg.parentElement.style.display = "block";
+	}
+	</script>
 		
 
 </body>
 </html>
+
