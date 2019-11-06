@@ -56,7 +56,8 @@
 				cursor: pointer;
 			}
 			
-		</style>
+	   </style>
+	
 		<script>
 			function closqImg(){
             var modal = document.getElementById("myModal");
@@ -74,8 +75,9 @@
 
 			}
 		</script>
-	   <h1 style="text-align: center;">images to be displayed</h1>
-		<div	 >
+
+	     <h1 style="text-align: center;">images to be displayed</h1>
+		   <div	 >
 				<div class="row">
 						<div class="column">
 						  <img src="download1.jpeg" alt="Snow" style="width:100%" onclick="openImg('download1.jpeg');">
@@ -108,16 +110,15 @@
 						<div class="column">
 						  <img src="download1.jpeg" alt="Mountains" style="width:100%" onclick="openImg('download1.jpeg');">
 						</div>
-				</div>	
-		</div>
-		<div id="myModal" class="modal" style="display:none">
-
-
-				<div class="modal-content" align="center">
+			       </div>	
+		       </div>    
+		       <div id="myModal" class="modal" style="display:none">
+                  <div class="modal-content" align="center">
 				  <span class="close" onclick="closqImg()">&times;</span>
 				  <img id="myImg" alt="the bird image" width="100%" height="100" style="width:400px;height:300px">
-				</div>
-		</div>
-		</body>
+				  </div>
+		       </div>
+       </body>
+		
 </html>
 
