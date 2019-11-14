@@ -100,7 +100,7 @@ input[type=button] {
 /*image content*/
 .section{                    /*specifying the width of section*/
   width: 300;
-  padding: 267px;
+  padding: 267px 150px;
   top: 191px;
   height: auto;
 }
