@@ -250,9 +250,33 @@ text-decoration:underline red;
  padding:20px;
  justify-content:space-around;
  }
+ 
+/*photo grid*/
+ .row1 {
+  display: flex;
+  /* padding: 0 4px;*/
+  
+}
 
+.column1 {
+  flex: 25%;
+  max-width: 25%;
+  /*padding: 0 4px;*/
+}
 
+.column1 img {
+  /*margin-top: 8px;*/
+  vertical-align: middle;
+  width: 100%;
+}
 
+.sub4 h2{
+  text-align:center;
+  text-decoration:underline red;
+}
+.sub4 p{
+  text-align:center;
+}
 /*
 .column {
   float: left;
