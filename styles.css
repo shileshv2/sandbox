@@ -179,6 +179,10 @@ text-decoration:underline red;
   
   padding: 10px;
 }
+.right p{
+  text-align:justify;
+}
+
 
 /*properties for box arrangement*/
 #boxes{
@@ -301,9 +305,11 @@ float:right;
  }
 .sub3 p,h2{
   margin-left:25%;
+  text-align:justify;
 }
 .sub3 h2{
   text-decoration:underline red;
+
 }
  
 /*photo grid*/
