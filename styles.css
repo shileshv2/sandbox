@@ -97,7 +97,7 @@ background-color:grey;
 
 input[type=button] {
   background-color:white;
-  border:double;
+  border:single;
   border-color:red;
   border-collapse:none;
   color: red;
