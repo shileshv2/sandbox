@@ -288,6 +288,25 @@ text-decoration:underline red;
 .sub4 p{
   text-align:center;
 }
+/*volunteer section*/
+
+#volunteer .column
+{
+  float:left;
+  width:18%;
+  padding:0 10px;
+}
+#volunteer .row{
+  margin:0;
+  padding:0 0 0 80px;
+}
+#volunteer h2{
+  text-align:center;
+  text-decoration:underline red;
+}
+#volunteer p{
+  text-align:center;
+}
 /*
 .column {
   float: left;
