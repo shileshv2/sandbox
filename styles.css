@@ -53,13 +53,15 @@ header nav{
 }
 .header1 li{
   float:left;
-  padding:0 18px 0 16px;
+  margin-left:50px;
+  padding:10px 20px 0 20px;
 }
 .header1 li a{
   display:block;
 }
 .header1 .highlight{
 margin-top: 20px;
+padding-bottom:10px;
   float: right;
   font-size: 20px;
   color:red;
@@ -215,10 +217,14 @@ text-decoration:underline red;
 }
 .sub h2{
   text-align:center;
+  margin-left:0;
   text-decoration:underline red;
 }
 .sub p{
   text-align:center;
+}
+#about h4{
+  text-decoration: underline red;
 }
 
 /* section our causes */
@@ -254,7 +260,8 @@ text-decoration:underline red;
 #causes .r1{
 float:right;
 }
-#causes .sub1 h3{
+#causes .sub1 h2{
+  margin-left:0;
   text-align:center;
   text-decoration:underline red;
 }
@@ -311,6 +318,7 @@ float:right;
 }
 
 .sub4 h2{
+  margin-left:0;
   text-align:center;
   text-decoration:underline red;
 }
@@ -328,15 +336,22 @@ float:right;
 #volunteer .row{
   margin:0;
   padding:0 0 0 80px;
+  margin-left:120px;
 }
 #volunteer h2{
   text-align:center;
+  margin-left:0;
   text-decoration:underline red;
 }
-#volunteer p,h3,a{
+#volunteer h3,p{
   text-align:center;
 }
-
+#volunteer li{
+  list-style-type:none;
+  display:inline-block;
+  padding-right:20px;
+  color:grey;
+}
 /*last section above footer*/
 #last .row{
 display:flex;
@@ -365,6 +380,7 @@ align-content:space-between;
 #news h2{
   float:left;
   text-align:center;
+  margin-left:20px;
 }
 #news form{
   margin-top:20px;
