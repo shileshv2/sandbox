@@ -141,6 +141,7 @@ text-decoration:underline red;
   position: absolute;
   right: 1200px;
   margin: 20px;
+  margin-top:130px;
   top:650px;
   max-width: 300px;
   padding: 18px;
@@ -178,16 +179,17 @@ text-decoration:underline red;
 }
 
 /*properties for box arrangement*/
+#boxes{
+  margin-top:200px;
+}
  #boxes .row1,.row2{
   display:flex;
   align-items:center;
   }
   
   #boxes .column{
-  width: 300px;
-    height: 100px;
+   width:100%;
     border: 1px solid black;
-    box-sizing: border-box;
     margin:1px;
     display:inline-block;
     flex-direction:row;
@@ -232,7 +234,7 @@ text-decoration:underline red;
   display:flex;
   flex-wrap:nowrap;
   /*width:fit-content;*/
-  justify-items:center;
+  justify-items:space-around;
  width:500 px;  
 }
 #causes .sub1 h3{
@@ -307,6 +309,49 @@ text-decoration:underline red;
 #volunteer p{
   text-align:center;
 }
+
+/*last section above footer*/
+#last .row{
+display:flex;
+align-content:space-between;
+}
+
+#last li{
+  list-style-type:none;
+  text-decoration:underline black;
+}
+#last h4{
+  text-decoration:underline red;
+}
+#last{
+  background-color:grey;
+  color:white;
+}
+
+/*section for news letter*/
+#news{
+  background-color:orangered;
+  color:white;
+  padding:15px;
+}
+
+#news h2{
+  float:left;
+  text-align:center;
+}
+#news form{
+  margin-top:20px;
+  float:right;
+  padding:10px;
+  width:auto;
+}
+
+/*footer section*/
+footer{
+  background-color:black;
+  text-align:center;
+  color:white;
+}
 /*
 .column {
   float: left;
@@ -327,7 +372,4 @@ text-decoration:underline red;
       background-color: #B2D6FF;
     }
   }  */  
-  .social-header{
-    width:80%;
-    margin:auto;
-  }
+ 
