@@ -152,7 +152,7 @@ text-decoration:underline red;
 
 /* Full-width input fields */
 .formcontainer input[type=text] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
@@ -190,7 +190,7 @@ text-decoration:underline red;
   }
   
   #boxes .column{
-   width:100%;
+   width:30%;
     border: 1px solid black;
     margin:1px;
     display:inline-block;
@@ -200,7 +200,13 @@ text-decoration:underline red;
   background-color:red;
   border:yellow;
   }
-
+ #boxes a{
+   margin-left:10px;
+   padding:0 5px 5px 5px;
+   
+   border: 1px solid black;
+   color:red;
+ }
 
  /*about us*/
 
@@ -212,7 +218,7 @@ text-decoration:underline red;
 
 .flex-container > div {
   background-color: #f1f1f1;
-  text-align: center;
+  /*text-align: center;*/
   
 }
 .sub h2{
@@ -226,7 +232,10 @@ text-decoration:underline red;
 #about h4{
   text-decoration: underline red;
 }
-
+#about img{
+  margin-left:10px;
+  margin-right:10px;
+}
 /* section our causes */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -260,7 +269,7 @@ text-decoration:underline red;
 #causes .r1{
 float:right;
 }
-#causes .sub1 h2{
+#causes .sub1 h2,h3{
   margin-left:0;
   text-align:center;
   text-decoration:underline red;
