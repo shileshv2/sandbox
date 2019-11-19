@@ -194,6 +194,7 @@ text-decoration:underline red;
 /*properties for box arrangement*/
 #boxes{
   margin-top:200px;
+  margin-left:50px;
 }
  #boxes .row1,.row2{
   display:flex;
@@ -201,15 +202,15 @@ text-decoration:underline red;
   }
   
   #boxes .column{
-   width:30%;
-    border: 1px solid black;
+   width:25%;
+    border: 1px solid grey;
     margin:1px;
     display:inline-block;
     flex-direction:row;
   }
   #boxes .column:hover{
-  background-color:red;
-  border:yellow;
+  border-color:red;
+  
   }
  #boxes a{
    margin-left:10px;
@@ -218,7 +219,10 @@ text-decoration:underline red;
    border: 1px solid black;
    color:red;
  }
-
+#boxes h4{
+  margin:30px;
+  padding-top:0px;
+}
  /*about us*/
 
 .flex-container {
@@ -353,7 +357,7 @@ text-decoration:underline red;
   justify-items:between;
   width:400 px;  
   margin-left:150px;
-  padding:50px;
+  padding-bottom:50px;
 
  
 }
