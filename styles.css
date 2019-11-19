@@ -6,7 +6,7 @@ body {
   line-height:1.5;
 }
 .container{
-  width:80%;
+  width:100%;
   margin:auto;
   overflow:hidden;
 }
@@ -19,6 +19,7 @@ header {
   text-align: center;
  /* width:100%;*/
   color:white;
+  padding-bottom:20px;
 }
 
 header a{
@@ -39,8 +40,14 @@ header li{
 }
 header nav{
   float:right;
+  padding-right:350px;
 }
-
+header nav li:hover{
+background-color:red;
+}
+header #q{
+  padding-left:400px;
+}
 
 .header1 nav{
   background-color:#f9f9f9;
@@ -107,14 +114,9 @@ input[type=button] {
   text-decoration: none;
   margin: 0;
   cursor: pointer;
+  margin-left:70px;
 }
-/*image content*/
-.section{                    /*specifying the width of section*/
-  width: 300;
-  padding: 267px 150px;
-  top: 191px;
-  height: auto;
-}
+
 /*setting the background image*/
 #showcase {
   background-image: url("imagess/slider.jpg");
@@ -146,11 +148,11 @@ text-decoration:underline red;
 }
 .formcontainer {
   position: absolute;
-  right: 1200px;
-  margin: 20px;
-  margin-top:130px;
+  right: 1100px;
+  margin-left:150px;
+  margin-top:180px;
   top:650px;
-  max-width: 300px;
+  max-width: 350px;
   padding: 18px;
   background-color: white;
 }
@@ -180,21 +182,22 @@ text-decoration:underline red;
 .right {
   position:absolute;
   right: 0px;
-  width:1150px;
-  padding: 10px;
+  width:1000px;
+  padding-left: 30px;
+  padding-right:80px;
 }
 .right p{
   text-align:justify;
 }
-.right h3{
+/*.right h3{
   text-align:start;
-}
+}*/
 
 
 /*properties for box arrangement*/
 #boxes{
   margin-top:200px;
-  margin-left:50px;
+  margin-left:380px;
 }
  #boxes .row1,.row2{
   display:flex;
@@ -224,98 +227,61 @@ text-decoration:underline red;
   padding-top:0px;
 }
  /*about us*/
-
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  /*text-align: center;*/
-  
-}
-.sub h2{
-  text-align:center;
-  margin-left:0;
-  text-decoration:underline red;
-}
-.sub p{
-  text-align:center;
-}
-#about h4{
-  text-decoration: underline red;
+ .sub .column {
+  float: left;
+  width: 25%;
 }
 #about img{
-  margin-left:10px;
-  margin-right:10px;
+  padding-bottom:80px;
+  padding-left:40px;
+  padding-right:40px;
 }
-/* section our causes */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  /*margin: auto;*/
-  margin:0px 20px 20px 0;
- /* text-align: center;*/
-  font-family: arial;
-}
-/*
-.flex-container1 {
-  display:flex;
-  flex-wrap:nowrap;
-  
-  justify-items:between;
- width:400px;  
- margin-left:150px;
- padding:50px;
 
- 
-}
-#causes span.e{
-  float:left;
-  margin-right:100px;
+.sub .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-left:200px;
   
 }
-#causes span.f{
-  float:right;
+.sub{
+background-color:#f1f1f1;
 }
-#causes span.g{
-  float:left;
-  color:red;
-  margin-right:100px;
+.sub h2{
+text-align:center;
+margin-left:100px;
+padding-top:40px;
 }
-#causes span.h{
-  float:right;
-  color:red;
+.sub p{
+text-align:justify;
+text-align:center;
+
 }
-#causes .l1{
-  float:left;
+#col1{
+  padding-left:250px;
 }
-#causes .r1{
-float:right;
+.sub #col1 p,h4{
+  text-align:justify;
+  margin-left:150px;
 }
-#causes .sub1 h2,h3{
-  margin-left:0;
-  text-align:center;
-  text-decoration:underline red;
+.sub #col2 p,h3{
+  margin-right:150px;
+  text-align:justify;
+  margin-left:-20px;
 }
-#causes .sub1 p{
-  text-align:center;
-}
-*/
+
 #causes .column6 {
   float: left;
   width: 23%;
   margin:10px;
   border: 0.2px solid  lightgrey;
-  /* Should be removed. Only for demonstration */
+
 }
 
-/* Clear floats after the columns */
+
 #causes .row6 {
  background-color:white;
- margin-left:50px;
+ margin-left:240px;
 
 }
 #causes span.e
@@ -348,12 +314,11 @@ text-decoration:underline red;
 #causes h2{
   text-decoration:underline red;
   text-align:center;
-  margin-left:0;
+  margin-left:180px;
 }
 #causes .flex-container1 {
   display:flex;
   flex-wrap:nowrap;
-  /*width:fit-content;*/
   justify-items:between;
   width:400 px;  
   margin-left:150px;
@@ -361,17 +326,22 @@ text-decoration:underline red;
 
  
 }
+.sub1{
+  padding-top:40px;
+  padding-bottom:40px;
+}
 /* video section*/
 
 
 
 .sub3 img {
-  margin-left:200px;
+  margin-left:390px;
   float: left;
   width:100%;
-  height:170px;
-  margin-right:15px;
-  margin-top:50px;
+  height:250px;
+  margin-right:25px;
+  padding-right:20px;
+  margin-top:30px;
  }
  
  .sub3{
@@ -379,11 +349,12 @@ text-decoration:underline red;
  color:white;
  height:300px;
  display:flex;
- padding:20px;
+ padding:40px;
  justify-content:space-around;
  }
 .sub3 p,h2{
-  margin-left:25%;
+  margin-left:30%;
+  margin-right:320px;
   text-align:justify;
 }
 .sub3 h2{
@@ -412,12 +383,16 @@ text-decoration:underline red;
 }
 
 .sub4 h2{
-  margin-left:0;
+  margin-left:180px;
   text-align:center;
   text-decoration:underline red;
 }
 .sub4 p{
   text-align:center;
+}
+.sub4{
+  padding-top:40px;
+  padding-bottom:40px;
 }
 /*volunteer section*/
 
@@ -433,7 +408,7 @@ text-decoration:underline red;
   justify-content:initial;
   /*margin:0;*/
   /*padding:0 0 0 80px;*/
-  margin-left:200px;
+  margin-left:400px;
   justify-items:center;
 }
 
@@ -442,13 +417,14 @@ text-decoration:underline red;
   margin-left:0;
   text-decoration:underline red;
 }
-#volunteer h3,p{
+.sub5 h5,p{
   text-align:center;
 }
+
 #volunteer li{
   list-style-type:none;
   display:inline-block;
-  padding-right:20px;
+  padding-right:40px;
   color:grey;
 }
 #volunteer .card {
@@ -456,8 +432,17 @@ text-decoration:underline red;
   max-width: 300px;
   /*margin: auto;*/
   margin:0px 20px 20px 0;
- /* text-align: center;*/
+  /*text-align: center;*/
   font-family: arial;
+}
+
+#volunteer h5{
+  margin-left:100px;
+}
+#volunteer h2{
+  margin-left:180px;
+  text-align:center;
+  text-decoration:underline red;
 }
 /*last section above footer*/
 #last .row4{
@@ -502,7 +487,7 @@ justify-content:space-evenly;
 }
 /*section for news letter*/
 #news{
-  background-color:orangered;
+  background-color:rgb(245,65,33);
   color:white;
   
 }
@@ -526,7 +511,7 @@ justify-content:space-evenly;
 }
 #news .button1{
   height:38px;
-  background-color:orangered;
+  background-color:rgb(245,65,33);
   color:white;
 }
 
