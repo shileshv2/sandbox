@@ -126,7 +126,12 @@ input[type=button] {
   position: relative;
   opacity:0.9;
 }
-
+#showcase .read{
+  color:white;
+  border:single;
+  background-color:transparent;
+  padding:10px 32px;
+}
 .image-text {
   text-align: center;
   position: absolute;
@@ -385,28 +390,53 @@ justify-content:space-evenly;
 .column4 h4{
   text-decoration:underline red;
 }
+#last .column3 li{
+  list-style-type:none;
+}
+#last .column3 h4{
+ text-decoration:underline red;
+}
 #last{
   background-color:grey;
   color:white;
 }
-
+#last span.a{
+  width:100%;
+  margin:5px;
+  padding:5px;
+  border:1px solid white;
+}
+#last .column3 li{
+  margin:20px;
+}
 /*section for news letter*/
 #news{
   background-color:orangered;
   color:white;
-  padding:15px;
+  
 }
 
 #news h2{
   float:left;
   text-align:center;
-  margin-left:20px;
+  margin-left:150px;
+  margin-top:30px;
 }
 #news form{
   margin-top:20px;
   float:right;
-  padding:10px;
+  padding:20px;
   width:auto;
+}
+#news input[type="text"]
+{ padding:10px 32px;
+  width:auto;
+  
+}
+#news .button1{
+  height:38px;
+  background-color:orangered;
+  color:white;
 }
 
 /*footer section*/
