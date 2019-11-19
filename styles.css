@@ -256,23 +256,34 @@ text-decoration:underline red;
  /* text-align: center;*/
   font-family: arial;
 }
-
+/*
 .flex-container1 {
   display:flex;
   flex-wrap:nowrap;
-  /*width:fit-content;*/
+  
   justify-items:between;
- width:400 px;  
+ width:400px;  
  margin-left:150px;
  padding:50px;
 
  
 }
-#causes .l{
+#causes span.e{
   float:left;
+  margin-right:100px;
+  
 }
-#causes .r{
+#causes span.f{
   float:right;
+}
+#causes span.g{
+  float:left;
+  color:red;
+  margin-right:100px;
+}
+#causes span.h{
+  float:right;
+  color:red;
 }
 #causes .l1{
   float:left;
@@ -288,7 +299,64 @@ float:right;
 #causes .sub1 p{
   text-align:center;
 }
+*/
+#causes .column6 {
+  float: left;
+  width: 23%;
+  margin:10px;
+  border: 0.2px solid  lightgrey;
+  /* Should be removed. Only for demonstration */
+}
 
+/* Clear floats after the columns */
+#causes .row6 {
+ background-color:white;
+ margin-left:50px;
+
+}
+#causes span.e
+{
+float:left;
+margin-right:100px;
+}
+#causes span.f{
+float:right;
+}
+#causes span.g{
+float:left;
+margin-right:100px;
+color:red;
+}
+#causes span.h{
+float:right;
+color:red;
+}
+#causes li{
+list-style-type:none;
+}
+#causes .z{
+text-align:center;
+}
+#causes h3{
+margin-left:0;
+text-decoration:underline red;
+}
+#causes h2{
+  text-decoration:underline red;
+  text-align:center;
+  margin-left:0;
+}
+#causes .flex-container1 {
+  display:flex;
+  flex-wrap:nowrap;
+  /*width:fit-content;*/
+  justify-items:between;
+  width:400 px;  
+  margin-left:150px;
+  padding:50px;
+
+ 
+}
 /* video section*/
 
 
@@ -379,17 +447,25 @@ float:right;
   padding-right:20px;
   color:grey;
 }
+#volunteer .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  /*margin: auto;*/
+  margin:0px 20px 20px 0;
+ /* text-align: center;*/
+  font-family: arial;
+}
 /*last section above footer*/
 #last .row4{
 display:flex;
 justify-content:space-evenly;
 }
 
-.column4 li{
+#last .column4 li{
   list-style-type:none;
   text-decoration:underline black;
 }
-.column4, .column5, .column3 h4{
+#last .column4, .column5, .column3 h4{
   text-decoration:underline red;
 }
 #last .column3 ,.column5 li{
