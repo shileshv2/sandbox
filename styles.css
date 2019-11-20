@@ -46,7 +46,7 @@ header nav li:hover{
 background-color:red;
 }
 header #q{
-  padding-left:400px;
+  padding-left:280px;
 }
 
 .header1 nav{
@@ -61,7 +61,7 @@ header #q{
 .header1 li{
   float:left;
   margin-left:50px;
-  padding:10px 20px 0 20px;
+  padding:10px 1px 0 20px;
 }
 .header1 li a{
   display:block;
@@ -72,6 +72,8 @@ padding-bottom:10px;
   float: right;
   font-size: 20px;
   color:red;
+  margin-left:200px;
+  padding-right:0;
 }
 
 .pages-content {
@@ -114,7 +116,7 @@ input[type=button] {
   text-decoration: none;
   margin: 0;
   cursor: pointer;
-  margin-left:70px;
+  margin-left:10px;
 }
 
 /*setting the background image*/
@@ -189,9 +191,7 @@ text-decoration:underline red;
 .right p{
   text-align:justify;
 }
-/*.right h3{
-  text-align:start;
-}*/
+
 
 
 /*properties for box arrangement*/
@@ -214,6 +214,10 @@ text-decoration:underline red;
   #boxes .column:hover{
   border-color:red;
   
+  }
+  #boxes .column a:hover{
+    color:white;
+    background-color:red;
   }
  #boxes a{
    margin-left:10px;
@@ -248,6 +252,7 @@ text-decoration:underline red;
 background-color:#f1f1f1;
 }
 .sub h2{
+  text-decoration:underline red;
 text-align:center;
 margin-left:100px;
 padding-top:40px;
@@ -294,7 +299,7 @@ float:right;
 }
 #causes span.g{
 float:left;
-margin-right:100px;
+margin-right:150px;
 color:red;
 }
 #causes span.h{
@@ -342,6 +347,7 @@ text-decoration:underline red;
   margin-right:25px;
   padding-right:20px;
   margin-top:30px;
+
  }
  
  .sub3{
@@ -444,6 +450,9 @@ text-decoration:underline red;
   text-align:center;
   text-decoration:underline red;
 }
+.sub5{
+  padding-top:40px;
+}
 /*last section above footer*/
 #last .row4{
 display:flex;
@@ -454,10 +463,13 @@ justify-content:space-evenly;
   list-style-type:none;
   text-decoration:underline black;
 }
-#last .column4, .column5, .column3 h4{
+#last .column4, .column5, .column3 h5{
   text-decoration:underline red;
 }
-#last .column3 ,.column5 li{
+#last .column5 li{
+  list-style-type:none;
+}
+.row4 .column3 li{
   list-style-type:none;
 }
 #last .column5 li{
@@ -473,7 +485,7 @@ justify-content:space-evenly;
   color:red;
 }
 #last{
-  background-color:grey;
+  background-color:gray;
   color:white;
 }
 #last span.a{
@@ -485,6 +497,7 @@ justify-content:space-evenly;
 #last .column3 li{
   margin:20px;
 }
+
 /*section for news letter*/
 #news{
   background-color:rgb(245,65,33);
@@ -495,7 +508,7 @@ justify-content:space-evenly;
 #news h2{
   float:left;
   text-align:center;
-  margin-left:150px;
+  margin-left:250px;
   margin-top:30px;
 }
 #news form{
@@ -507,12 +520,14 @@ justify-content:space-evenly;
 #news input[type="text"]
 { padding:10px 32px;
   width:auto;
+  margin-left:100px;
   
 }
 #news .button1{
   height:38px;
   background-color:rgb(245,65,33);
   color:white;
+  margin-right:200px;
 }
 
 /*footer section*/
@@ -521,24 +536,12 @@ footer{
   text-align:center;
   color:white;
 }
-/*
-.column {
-  float: left;
-  width: 25%;
-  
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-*/
 
 
- /*  @media only screen and (min-width: 961px) {
+  @media only screen and (min-width: 961px) {
     body {
       background-color: #B2D6FF;
     }
-  }  */  
+  }  
+
  
