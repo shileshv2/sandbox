@@ -154,7 +154,7 @@ text-decoration:underline red;
   position: absolute;
   right: 1100px;
   margin-left:150px;
-  margin-top:180px;
+  margin-top:20px;
   top:650px;
   max-width: 350px;
   padding: 18px;
@@ -185,10 +185,11 @@ text-decoration:underline red;
 /*text next to form*/
 .right {
   position:absolute;
+  top:800px;
   right: 0px;
   width:1000px;
   padding-left: 30px;
-  padding-right:80px;
+  padding-right:90px;
 }
 .right p{
   text-align:justify;
@@ -197,25 +198,39 @@ text-decoration:underline red;
 
 
 /*properties for box arrangement*/
+#boxes .container{
+  width:60%;
+  margin:50px auto 0;
+  display:block;
+  box-sizing:border-box;
+}
 #boxes{
-  margin-top:200px;
-  margin-left:380px;
+  margin-top:300px;
+  margin-bottom:100px;
+
 }
  #boxes .row1,.row2{
-  display:flex;
+  margin:10px,10px,10px,10px;
+  /*border-left:1px solid black;*/
   align-items:center;
   }
-  .row1:after {
+  #boxes .row:after {
     content: "";
     display: table;
     clear: both;
   }
   #boxes .column{
-   width:25%;
-    border: 1px solid grey;
+   width:30%;
+    border: 1px solid black;
+    vertical-align:middle;
+   /* border-left:1px solid black;*/
+    border-right:1px solid black;
     margin:10px;
-    display:inline-block;
-    flex-direction:row;
+    margin-left:10px;
+    margin-right:10px;
+    display:table;
+    float:left;
+    
   }
   #boxes .column:hover{
   border-color:red;
@@ -235,6 +250,7 @@ text-decoration:underline red;
 #boxes h4{
   margin:30px;
   padding-top:0px;
+  text-decoration:underline red;
 }
  /*about us*/
  .sub .column {
@@ -251,6 +267,9 @@ text-decoration:underline red;
   padding-bottom:80px;
   padding-left:40px;
   padding-right:40px;
+}
+#about h4,h3{
+  text-decoration:underline red;
 }
 
 .sub .row:after {
@@ -579,19 +598,65 @@ footer{
     left:180px;
     margin-left:-100px;
     width:500px;
-    top:520px;
-    height:300px;
+    top:350px;
+    height:400px;
     padding:0 20px 20px 0;
   }
   .right h1{
-    margin-top:400px;
+    margin-top:0px;
     margin-left:650px;
     width:400px;
+    top:10px;
   }
   .right p{
     width:400px;
     margin-left:650px;
   }
+  #boxes{
+    margin:0px;
+    padding:1px;
+    width:100%;
+  }
+  #boxes .column{
+   width:100%;
+   display:block;
+   margin:10px, 0;
+   box-sizing:border-box;
+  margin-left:0;
+  padding-right:20px;
+  padding-left:20px;
+  }
+  #boxes .row1{
+    margin:0px;
+    margin-top:700px;
+  }
+  #about h2{
+    margin-left:60px;
+    width:80px;
+  }
+  #about{
+  /*margin:30px;*/
+  float:none;
+  width:100%;
+ }
+ #about .column{
+   width:100%;
+   display:block;
+ }
+ #about p{
+   text-align:left
+ }
+ #about #col2.column{
+   margin-left:60px;
+ }
+ #about #col1.column{
+   margin-left:-360px;
+ }
+ #about .sub #k{
+   width:300px;
+   margin-left:50px;
+
+ }
   /*body {
     background-color: rgb(184, 30, 35); 
   }*/
