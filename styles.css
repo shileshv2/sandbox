@@ -252,7 +252,7 @@ text-decoration:underline red;
   padding-top:0px;
   text-decoration:underline red;
 }
- /*about us*/
+ /*about us Section*/
  .sub .column {
   float: left;
   width: 25%;
@@ -395,6 +395,7 @@ text-decoration:underline red;
  color:white;
  height:300px;
  display:flex;
+ flex-wrap:wrap;
  padding:40px;
  justify-content:space-around;
  }
@@ -597,6 +598,10 @@ footer{
     float:left;
     overflow:auto;
   }
+  .navbar nav{
+    width:410px;
+    padding-right:0px;
+  }
   .header1 .highlight{
    margin-left:-70px;
   }
@@ -710,7 +715,7 @@ footer{
   width:100%;
   margin:0px;
   padding:0px;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
 }
 #gallery .column1{
   flex:100%;
