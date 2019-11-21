@@ -377,10 +377,8 @@ text-decoration:underline red;
   padding-top:40px;
   padding-bottom:40px;
 }
+
 /* video section*/
-
-
-
 .sub3 img {
   margin-left:390px;
   float: left;
@@ -413,7 +411,7 @@ text-decoration:underline red;
 /*photo grid*/
  #gallery .row1 {
   display: flex;
-  height:500px;
+flex-wrap:wrap;
   /* padding: 0 4px;*/
   
 }
@@ -452,14 +450,20 @@ text-decoration:underline red;
 }
 */
 #volunteer .row{
-  display:flex;
-  justify-content:initial;
+  /*display:flex;
+  justify-content:initial;*/
   /*margin:0;*/
   /*padding:0 0 0 80px;*/
-  margin-left:400px;
+  margin-left:290px;
   justify-items:center;
 }
-
+#volunteer .column{
+ margin:10px;
+ margin-left:10px;
+ margin-right:10px;
+ display:table;
+ float:left;
+}
 #volunteer h2{
   text-align:center;
   margin-left:0;
@@ -498,6 +502,7 @@ text-decoration:underline red;
 /*last section above footer*/
 #last .row4{
 display:flex;
+flex-wrap:wrap;
 justify-content:space-evenly;
 }
 
@@ -578,10 +583,10 @@ footer{
   text-align:center;
   color:white;
 }
-
+/*media query*/
 @media only screen and (max-width: 500px) {
   
-  
+  /*header */
   header #q{
     padding-left:100px;
   }
@@ -595,6 +600,7 @@ footer{
   .header1 .highlight{
    margin-left:-70px;
   }
+  /*showcases section*/
   #showcase{
     width:500px;
     height:300px;
@@ -623,6 +629,8 @@ footer{
     width:400px;
     margin-left:650px;
   }
+
+  /*section boxes*/
   #boxes{
     margin:0px;
     padding:1px;
@@ -641,6 +649,7 @@ footer{
     margin:0px;
     margin-top:700px;
   }
+  /*section about*/
   #about h2{
     margin-left:60px;
     width:80px;
@@ -668,6 +677,7 @@ footer{
    margin-left:50px;
 
  }
+ /*causes section*/
  #causes .column6{
    /*width:100%;*/
    margin-left:-330px;
@@ -681,6 +691,77 @@ footer{
  #causes span.g{
    margin-right:200px;
  }
+ /*video section*/
+#image{
+  float:none;
+  width:100%;
+  flex-wrap:nowrap;
+  flex:auto;
+  height:400px;
+  
+}
+#image .sub3 img{
+  width:350px;
+  margin-left:500px;
+  margin-right:0px;
+}
+/*gallery section*/
+#galley{
+  width:100%;
+  margin:0px;
+  padding:0px;
+  flex-wrap:nowrap;
+}
+#gallery .column1{
+  flex:100%;
+  max-width:100%;
+}
+#gallery .sub4 h2,#causes .sub1 h2,#about .sub h2,
+#volunteer .sub5 h2{
+  font-size:18px;
+  width:380px;
+  height:20px;
+  margin-left:40px;
+  flex-flow:hidden;
+
+}
+
+/*volunteer section*/
+/*last section above footer*/
+#last .column4,.column3,.column5{
+  flex:100%;
+  max-width:100%;
+}
+#last .column3{
+  margin-left:-50px;
+}
+
+/*news letter section*/
+#news .signup h2{
+  width:400px;
+  margin-left:50px;
+  font-size:30px;
+  padding-bottom:0px;
+}
+#news .signup input{
+width:300px;
+padding-left:104px;
+border-left-width:0px;
+padding-bottom:20px;
+margin-left:83px;
+padding-right:12px;
+margin-bottom:18px;
+margin-right:0px;
+}
+#news .signup .button1{
+  padding-left:20px;
+  margin-left:211px;
+  margin-right:64px;
+  border-left-width:1px;
+  padding-right:0px;
+  width:162px;
+  height:49px;
+}
   /*body {
     background-color: rgb(184, 30, 35); 
   }*/
